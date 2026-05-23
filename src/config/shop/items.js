@@ -138,6 +138,18 @@ roleId: null,
         effect: {
             type: 'robbery_protection',
             protection: true
+                    }
+    },
+    {
+                id: 'Waffe',
+        name: '🔒 Personal Waffe',
+        price: 30000,
+        description: 'Protects your money from theft. Prevents others from robbing you.',
+        type: 'tool',
+        durability: null,
+        effect: {
+            type: 'robbery_protection',
+            protection: true
         }
     }
 ];
