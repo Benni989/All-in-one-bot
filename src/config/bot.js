@@ -216,7 +216,7 @@ export const botConfig = {
       none: {
         emoji: "⚪",
         color: "#95A5A6",
-        label: "None",
+        label: "wähle mit dem command /priority deine Priority",
       },
       low: {
         emoji: "🟢",
