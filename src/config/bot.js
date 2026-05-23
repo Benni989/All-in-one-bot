@@ -182,8 +182,8 @@ export const botConfig = {
     workMax: 100,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 50000,
+    begMax: 50001,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.4,
