@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made by Benni",
+        name: "~Made by Benni~",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, 
       },
     ],
   },
@@ -56,15 +56,20 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Wie heißt du?", required: true },
+      { question: "Wie alt bist du?", required: true },
+      { question: "Wieso genau wir?", required: true },
+      { question: "Wieso sollten wir dich nehmen?", required: true },
+      { question: "Deine Stärken", required: true },
+      { question: "Deine Schwächen", required: true },
+      { question: "Noch Irgendwas?", required: true },
+      { question: "Viel Glück :)", required: true },
     ],
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
+      pending: "#FFFF00",
+      approved: "#008000",
       denied: "#FF0000",
     },
 
@@ -136,16 +141,16 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Gaming Community",
       // Footer icon URL (null = no icon).
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null,
+    thumbnail: https://i.ibb.co/60v6Zbm6/Gaming-Community.webp,
     author: {
       // Optional default embed author block.
-      name: null,
-      icon: null,
+      name: Gaming Community,
+      icon: https://i.ibb.co/60v6Zbm6/Gaming-Community.webp,
       url: null,
     },
   },
@@ -156,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Münze",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Münzen",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "€",
     },
 
     // Starting balance for new users.
