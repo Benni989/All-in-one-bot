@@ -146,11 +146,11 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: https://i.ibb.co/60v6Zbm6/Gaming-Community.webp,
+    thumbnail: null,
     author: {
       // Optional default embed author block.
       name: Gaming Community,
-      icon: https://i.ibb.co/60v6Zbm6/Gaming-Community.webp,
+      icon: null,
       url: null,
     },
   },
