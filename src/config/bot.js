@@ -221,7 +221,7 @@ export const botConfig = {
       low: {
         emoji: "🟢",
         color: "#2ECC71",
-        label: "Low",
+        label: "Niedrig",
       },
       medium: {
         emoji: "🟡",
@@ -231,12 +231,12 @@ export const botConfig = {
       high: {
         emoji: "🔴",
         color: "#E74C3C",
-        label: "High",
+        label: "Hoch",
       },
       urgent: {
         emoji: "🚨",
         color: "#E91E63",
-        label: "Urgent",
+        label: "Dringend",
       },
     },
 
@@ -294,10 +294,10 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Klicke Auf den untenstehenden Knopf, um dich zu Verifizieren und Zugang zum Server zu Bekommen!",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "Verifizieren",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -364,11 +364,11 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "Willkommen {user} auf {server}! Wir sind Jetzt {memberCount} Mitglieder!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} Hat den Server verlassen. Wir haben jetzt {memberCount} Mitglieder.",
     // Channel ID for welcome messages.
     defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
@@ -426,13 +426,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "Du hast Keine Berechtigungen diesen Command auszuführen.",
+    cooldownActive: "Bitte Warte {time} bevor du diesen Command erneut nutzt.",
+    errorOccurred: "Ein Fehler ist während dem Ausführen des Commands Passiert.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "Ich Habe Nicht Die Nötigen Berechtigungen.",
+    commandDisabled: "Dieser Command ist deaktiviert.",
+    maintenanceMode: "Der Bot ist Im Wartungsmodus.",
   },
 
   // =========================
@@ -442,7 +442,7 @@ export const botConfig = {
   features: {
     // Core systems.
     economy: true,
-    leveling: true,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
