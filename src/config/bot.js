@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Gaming Community",
+      text: null,
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -149,7 +149,7 @@ export const botConfig = {
     thumbnail: null,
     author: {
       // Optional default embed author block.
-      name: Gaming Community,
+      name: null,
       icon: null,
       url: null,
     },
